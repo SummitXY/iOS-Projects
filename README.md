@@ -4,7 +4,7 @@
 
 One easy game of dice
 
-<img src="https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/sources/DiceGame.gif" width="320">
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/sources/DiceGame.gif" width="200">
 
 ## Note：
 
@@ -16,7 +16,7 @@ One easy timer
 
 
 
-<img src="https://github.com/SummitXY/iOS-projects/blob/master/Timer/sources/Timer.gif" width="320" >
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/Timer/sources/Timer.gif" width="200" >
 
 ## Note：
 
