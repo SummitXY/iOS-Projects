@@ -4,7 +4,7 @@
 
 One easy timer
 
-![DiceGame](https://github.com/SummitXY/iOS-projects/blob/master/Timer/sources/Timer.gif)
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/Timer/sources/Timer.gif" width="200" >
 
 ## Note：
 

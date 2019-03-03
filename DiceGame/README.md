@@ -4,7 +4,7 @@
 
 One easy game of dice
 
-![DiceGame](https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/sources/DiceGame.gif)
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/sources/DiceGame.gif" width="200">
 
 ## Note：
 
