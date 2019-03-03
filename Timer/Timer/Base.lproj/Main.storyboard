@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Aye-Tb-Agk">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Timer" id="llA-5C-tZp">
+                                        <barButtonItem key="leftBarButtonItem" systemItem="pause" id="0Su-ct-HWw">
+                                            <connections>
+                                                <action selector="pause:" destination="BYZ-38-t0r" id="Udm-fC-w19"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="nfm-Ep-DOU">
+                                            <connections>
+                                                <action selector="play:" destination="BYZ-38-t0r" id="sNH-Bf-V0o"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MbU-DU-CFg">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OWN-PE-2dc"/>
+                                    <barButtonItem systemItem="refresh" id="zmZ-zx-Ocq">
+                                        <connections>
+                                            <action selector="reset:" destination="BYZ-38-t0r" id="eOQ-2w-Wfb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hKa-lb-6GE"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mga-aE-Tai">
+                                <rect key="frame" x="146" y="255" width="83.5" height="177"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="150"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Aye-Tb-Agk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="0kc-PI-SKX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MbU-DU-CFg" secondAttribute="trailing" id="Hia-fm-UEh"/>
+                            <constraint firstItem="mga-aE-Tai" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="XzK-Kf-fV6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="MbU-DU-CFg" secondAttribute="bottom" id="ajK-id-ml0"/>
+                            <constraint firstItem="mga-aE-Tai" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="cfY-jp-1Dh"/>
+                            <constraint firstItem="Aye-Tb-Agk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="k5i-iZ-ouS"/>
+                            <constraint firstItem="MbU-DU-CFg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="mhm-7B-qT8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Aye-Tb-Agk" secondAttribute="trailing" id="vvi-yr-wC4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="screen" destination="mga-aE-Tai" id="hu4-5b-cCC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
