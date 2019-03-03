@@ -4,7 +4,7 @@
 
 One easy game of dice
 
-![DiceGame](https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/sources/DiceGame.gif)
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/sources/DiceGame.gif" width="320">
 
 ## Note：
 
@@ -14,7 +14,9 @@ Use `motionEnded(:with:)`method to roll the dice if the phone is shaking
 
 One easy timer
 
-![DiceGame](https://github.com/SummitXY/iOS-projects/blob/master/Timer/sources/Timer.gif)
+
+
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/Timer/sources/Timer.gif" width="320" >
 
 ## Note：
 
