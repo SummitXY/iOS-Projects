@@ -1,6 +1,6 @@
 
 
-# ![120](/Users/apple/Downloads/DiceGame-master/DiceGame/Assets.xcassets/AppIcon.appiconset/80.png)	Dice Game
+# ![120](https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/DiceGame/Assets.xcassets/AppIcon.appiconset/80.png)	Dice Game
 
 One easy game of dice
 
