@@ -1,8 +1,8 @@
 #  <img src="https://github.com/SummitXY/iOS-projects/blob/master/Note/sources/logo.jpg" width="80" > Notebook
 
-<img src="https://github.com/SummitXY/iOS-projects/blob/master/Note/sources/app.gif" width="80" >
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/Note/sources/app.gif" width="200" >
 
-## Note:
+Note:
 
  	1. Use `Tabbed App` Template
  	2. Use `TextFieldShouldReturn` and `touchesBegan` with `view.endEditing` to hide keyboard
