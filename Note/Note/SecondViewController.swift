@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController,UITextFieldDelegate {
     
     
     
@@ -21,17 +21,30 @@ class SecondViewController: UIViewController {
             if var storedData = UserDefaults.standard.object(forKey: "list") as? [String] {
                 storedData.append(item)
                 UserDefaults.standard.set(storedData, forKey: "list")
+            } else {
+                UserDefaults.standard.set([item], forKey: "list")
             }
-            
-            
         }
+        view.endEditing(true)
+        addItem.text = ""
+        
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+    
 
 }
 
