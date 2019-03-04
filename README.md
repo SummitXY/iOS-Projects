@@ -21,3 +21,9 @@ Use `Timer.scheduledTimer(timeInterval:target:selector:userInfo,repeats)` to rep
 <img src="https://github.com/SummitXY/iOS-projects/blob/master/TableViewApp/sources/app.gif" width="200" >
 
 Use `tableView.reloadData()` with `@IBOutlet tableView` to refresh table data
+
+# RememberMe
+
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/RemberMe/sources/app.gif" width="200" >
+
+Use `UserDefaults.standard.set(:forKey:)`  and `UserDefaults.standard.object(forKey:)` to store and get user data
