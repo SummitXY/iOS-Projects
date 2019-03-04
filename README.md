@@ -44,8 +44,18 @@ Note:
 
 # Calculator Screen
 
-<img src="https://github.com/SummitXY/iOS-projects/blob/master/iOSCalculatorScreen/sources/app.gif" width="200" >
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/iOSCalculatorScreen/sources/app.png" width="200" >
 
 Note:
 
 1. stack view
+
+# MovingBackground
+
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/MovingBackground/sources/app.png" width="200" >
+
+Note:
+
+1. `appdelegate`
+2. `UIView.animation()`
+3. 闭包函数
