@@ -65,3 +65,7 @@ Note:
 1. `appdelegate`
 2. `UIView.animation()`
 3. 闭包函数
+
+# EasyAnimation
+
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/EasyAnimation/sources/app.gif" width="200" >
