@@ -12,6 +12,10 @@
 		18E2FE9E222E0B1200C8231D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E2FE9C222E0B1200C8231D /* Main.storyboard */; };
 		18E2FEA0222E0B1300C8231D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E2FE9F222E0B1300C8231D /* Assets.xcassets */; };
 		18E2FEA3222E0B1300C8231D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E2FEA1222E0B1300C8231D /* LaunchScreen.storyboard */; };
+		18E2FEF9222EA62500C8231D /* LoveStory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18E2FEF8222EA62500C8231D /* LoveStory.mp3 */; };
+		18E2FEFC222EC5DC00C8231D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2FEFB222EC5DC00C8231D /* SignupViewController.swift */; };
+		18E2FEFF222EC84600C8231D /* LogInScreen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18E2FEFD222EC84600C8231D /* LogInScreen.xcdatamodeld */; };
+		18E2FF22222EDC6500C8231D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2FF21222EDC6500C8231D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		18E2FE9F222E0B1300C8231D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E2FEA2222E0B1300C8231D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E2FEA4222E0B1300C8231D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E2FEF8222EA62500C8231D /* LoveStory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LoveStory.mp3; sourceTree = "<group>"; };
+		18E2FEFB222EC5DC00C8231D /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		18E2FEFE222EC84600C8231D /* LogInScreen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LogInScreen.xcdatamodel; sourceTree = "<group>"; };
+		18E2FF21222EDC6500C8231D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +65,23 @@
 				18E2FE98222E0B1200C8231D /* AppDelegate.swift */,
 				18E2FE9A222E0B1200C8231D /* ViewController.swift */,
 				18E2FE9C222E0B1200C8231D /* Main.storyboard */,
+				18E2FF21222EDC6500C8231D /* DetailViewController.swift */,
+				18E2FEFD222EC84600C8231D /* LogInScreen.xcdatamodeld */,
+				18E2FEFB222EC5DC00C8231D /* SignupViewController.swift */,
+				18E2FEFA222EA62900C8231D /* Music */,
 				18E2FE9F222E0B1300C8231D /* Assets.xcassets */,
 				18E2FEA1222E0B1300C8231D /* LaunchScreen.storyboard */,
 				18E2FEA4222E0B1300C8231D /* Info.plist */,
 			);
 			path = LogInScreen;
+			sourceTree = "<group>";
+		};
+		18E2FEFA222EA62900C8231D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				18E2FEF8222EA62500C8231D /* LoveStory.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +144,7 @@
 			files = (
 				18E2FEA3222E0B1300C8231D /* LaunchScreen.storyboard in Resources */,
 				18E2FEA0222E0B1300C8231D /* Assets.xcassets in Resources */,
+				18E2FEF9222EA62500C8231D /* LoveStory.mp3 in Resources */,
 				18E2FE9E222E0B1200C8231D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E2FEFC222EC5DC00C8231D /* SignupViewController.swift in Sources */,
+				18E2FEFF222EC84600C8231D /* LogInScreen.xcdatamodeld in Sources */,
+				18E2FF22222EDC6500C8231D /* DetailViewController.swift in Sources */,
 				18E2FE9B222E0B1200C8231D /* ViewController.swift in Sources */,
 				18E2FE99222E0B1200C8231D /* AppDelegate.swift in Sources */,
 			);
@@ -336,6 +360,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18E2FEFD222EC84600C8231D /* LogInScreen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18E2FEFE222EC84600C8231D /* LogInScreen.xcdatamodel */,
+			);
+			currentVersion = 18E2FEFE222EC84600C8231D /* LogInScreen.xcdatamodel */;
+			path = LogInScreen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18E2FE8D222E0B1100C8231D /* Project object */;
 }

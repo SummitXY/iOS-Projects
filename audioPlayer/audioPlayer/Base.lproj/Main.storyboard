@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="audioPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="SLT-WQ-O8I">
+                                <rect key="frame" x="16" y="20" width="343" height="626"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fKQ-m8-yM3" userLabel="top view">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="188"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose A Mus." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kb1-fY-4Ns">
+                                                <rect key="frame" x="8" y="64.5" width="327" height="59"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="50"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="kb1-fY-4Ns" firstAttribute="centerY" secondItem="fKQ-m8-yM3" secondAttribute="centerY" id="Mia-JP-ObT"/>
+                                            <constraint firstItem="kb1-fY-4Ns" firstAttribute="centerX" secondItem="fKQ-m8-yM3" secondAttribute="centerX" id="lWb-Bt-wd6"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="OWl-ge-xPM" userLabel="middle view">
+                                        <rect key="frame" x="78" y="189" width="187.5" height="248"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-iG-sRe">
+                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="48.5"/>
+                                                <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="chosePlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ibO-q3-2sl"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BTB-wV-UZO">
+                                                <rect key="frame" x="0.0" y="49.5" width="187.5" height="49"/>
+                                                <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="chosePlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JNM-7a-Zge"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xrl-ma-c8l">
+                                                <rect key="frame" x="0.0" y="99.5" width="187.5" height="49"/>
+                                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="chosePlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U7k-Se-9mO"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGW-Ff-D5g">
+                                                <rect key="frame" x="0.0" y="149.5" width="187.5" height="49"/>
+                                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="chosePlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Z1-wa-5qR"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L4p-mN-Zgl">
+                                                <rect key="frame" x="0.0" y="199.5" width="187.5" height="48.5"/>
+                                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="chosePlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mhK-Em-5Og"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eCN-wS-VSR" userLabel="bottom view">
+                                        <rect key="frame" x="0.0" y="438" width="343" height="188"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="6UR-rd-n8k">
+                                                <rect key="frame" x="68.5" y="38" width="206" height="112.5"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="6UR-rd-n8k" firstAttribute="width" secondItem="eCN-wS-VSR" secondAttribute="width" multiplier="3:5" id="41N-VM-xCK"/>
+                                            <constraint firstItem="6UR-rd-n8k" firstAttribute="height" secondItem="eCN-wS-VSR" secondAttribute="height" multiplier="3:5" id="VVT-AB-cOM"/>
+                                            <constraint firstItem="6UR-rd-n8k" firstAttribute="centerY" secondItem="eCN-wS-VSR" secondAttribute="centerY" id="efc-0C-HAY"/>
+                                            <constraint firstItem="6UR-rd-n8k" firstAttribute="centerX" secondItem="eCN-wS-VSR" secondAttribute="centerX" id="vx5-5r-590"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="eCN-wS-VSR" secondAttribute="bottom" id="46S-zo-3Zt"/>
+                                    <constraint firstItem="eCN-wS-VSR" firstAttribute="height" secondItem="SLT-WQ-O8I" secondAttribute="height" multiplier="0.3" id="4DS-LS-6Xh"/>
+                                    <constraint firstItem="fKQ-m8-yM3" firstAttribute="top" secondItem="SLT-WQ-O8I" secondAttribute="top" id="7Kz-wc-14X"/>
+                                    <constraint firstAttribute="trailing" secondItem="eCN-wS-VSR" secondAttribute="trailing" id="dd9-eM-hKO"/>
+                                    <constraint firstItem="fKQ-m8-yM3" firstAttribute="leading" secondItem="SLT-WQ-O8I" secondAttribute="leading" id="hhF-6Q-kvY"/>
+                                    <constraint firstItem="eCN-wS-VSR" firstAttribute="leading" secondItem="SLT-WQ-O8I" secondAttribute="leading" id="nho-XL-1dZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="fKQ-m8-yM3" secondAttribute="trailing" id="x1c-Pk-knR"/>
+                                    <constraint firstItem="fKQ-m8-yM3" firstAttribute="height" secondItem="SLT-WQ-O8I" secondAttribute="height" multiplier="0.3" id="yGf-j1-ibb"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SLT-WQ-O8I" secondAttribute="trailing" constant="16" id="8oY-vq-ZFp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SLT-WQ-O8I" secondAttribute="bottom" constant="21" id="C5N-Iv-2CE"/>
+                            <constraint firstItem="SLT-WQ-O8I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Ga4-3D-qOc"/>
+                            <constraint firstItem="SLT-WQ-O8I" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kl0-2w-9j3"/>
+                            <constraint firstItem="OWl-ge-xPM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="vDz-0g-VQH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="btns" destination="twJ-iG-sRe" collectionClass="NSMutableArray" id="BCc-Uj-NRs"/>
+                        <outletCollection property="btns" destination="BTB-wV-UZO" collectionClass="NSMutableArray" id="FuO-eM-USh"/>
+                        <outletCollection property="btns" destination="Xrl-ma-c8l" collectionClass="NSMutableArray" id="Bhq-LP-8mV"/>
+                        <outletCollection property="btns" destination="BGW-Ff-D5g" collectionClass="NSMutableArray" id="DWo-l6-v4D"/>
+                        <outletCollection property="btns" destination="L4p-mN-Zgl" collectionClass="NSMutableArray" id="c7Q-zY-5Sh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bottom" width="1000" height="1000"/>
+    </resources>
+</document>

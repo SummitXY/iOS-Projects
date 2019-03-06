@@ -2,17 +2,36 @@
 
 # loginScreen
 
-<img src="https://github.com/SummitXY/iOS-projects/blob/master/LoginScreen/sources/app.gif" width="200">
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/LogInScreen/sources/app2.gif" width="200">
 
 Note:
 
 1. `CGAffineTransform`
+2. `CoreData`
 
 # <img src="https://github.com/SummitXY/iOS-projects/blob/master/twitterScreen/sources/twitter.png" width="80"> twitterScreen
 
 <img src="https://github.com/SummitXY/iOS-projects/blob/master/twitterScreen/sources/app.gif" width="200">
 
+# MovingBackground
 
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/MovingBackground/sources/app.gif" width="200" >
+
+Note:
+
+1. `appdelegate`
+2. `UIView.animation()`
+3. 闭包函数
+
+# MusicPlayer
+
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/audioPlayer/sources/app.png" width="200" >
+
+Note:
+
+1. `import AVFoundation`
+2. `Bundle.main.url`
+3. `AVPlayer`
 
 # ![120](https://github.com/SummitXY/iOS-projects/blob/master/DiceGame/DiceGame/Assets.xcassets/AppIcon.appiconset/80.png)	Dice Game
 
@@ -64,15 +83,7 @@ Note:
 
 1. stack view
 
-# MovingBackground
-
-<img src="https://github.com/SummitXY/iOS-projects/blob/master/MovingBackground/sources/app.png" width="200" >
-
-Note:
-
-1. `appdelegate`
-2. `UIView.animation()`
-3. 闭包函数
+1. 
 
 # EasyAnimation
 
