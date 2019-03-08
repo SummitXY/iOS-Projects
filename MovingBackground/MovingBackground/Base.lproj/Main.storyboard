@@ -38,7 +38,7 @@
                                 <color key="backgroundColor" red="1" green="0.5409764051" blue="0.84731429820000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="登陆"/>
                                 <connections>
-                                    <segue destination="xDB-aZ-xuA" kind="show" animates="NO" id="uQw-xP-P9V"/>
+                                    <segue destination="xDB-aZ-xuA" kind="show" id="uQw-xP-P9V"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ki3-nb-Dj2">
