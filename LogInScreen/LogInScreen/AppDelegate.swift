@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import MovingBackgroundImage
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,17 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let bgImageView = UIImageView()
-        bgImageView.image = UIImage(named: "bgTaylor")
-        bgImageView.frame.size.width = bgImageView.image!.size.width
-        bgImageView.frame = CGRect(x: 0, y: 0, width: bgImageView.image!.size.width, height: window!.frame.height)
-        bgImageView.contentMode = .scaleAspectFill
-        window?.addSubview(bgImageView)
-        
-        
-        UIView.animate(withDuration: 10, delay: 0.8, options: [.repeat,.autoreverse], animations: {
-            bgImageView.center.x -= (bgImageView.frame.width - self.window!.frame.width)
-        }, completion: nil)
+//        let bgImageView = UIImageView()
+//        bgImageView.image = UIImage(named: "bgTaylor")
+//        bgImageView.frame.size.width = bgImageView.image!.size.width
+//        bgImageView.frame = CGRect(x: 0, y: 0, width: bgImageView.image!.size.width, height: window!.frame.height)
+//        bgImageView.contentMode = .scaleAspectFill
+//        window?.addSubview(bgImageView)
+//
+//
+//        UIView.animate(withDuration: 10, delay: 0.8, options: [.repeat,.autoreverse], animations: {
+//            bgImageView.center.x -= (bgImageView.frame.width - self.window!.frame.width)
+//        }, completion: nil)
+        MovingBackgroundImage().move(window: window!, backgroundImageName: "bgTaylor", animationDuration: 10.0)
         return true
     }
 

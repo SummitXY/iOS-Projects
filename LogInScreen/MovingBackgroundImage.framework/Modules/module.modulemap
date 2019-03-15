@@ -1,0 +1,11 @@
+framework module MovingBackgroundImage {
+  umbrella header "MovingBackgroundImage.h"
+
+  export *
+  module * { export * }
+}
+
+module MovingBackgroundImage.Swift {
+    header "MovingBackgroundImage-Swift.h"
+    requires objc
+}

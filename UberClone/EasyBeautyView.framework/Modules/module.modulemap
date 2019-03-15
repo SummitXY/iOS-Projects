@@ -1,0 +1,11 @@
+framework module EasyBeautyView {
+  umbrella header "EasyBeautyView.h"
+
+  export *
+  module * { export * }
+}
+
+module EasyBeautyView.Swift {
+    header "EasyBeautyView-Swift.h"
+    requires objc
+}

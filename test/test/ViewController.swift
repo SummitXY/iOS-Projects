@@ -13,44 +13,47 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //let imageView = UIView(frame: CGRect(x:0, y:0, width: 200, height: 200))
-        let imageView = UIImageView(frame: CGRect(x: 36, y: 36, width: 256, height: 256))
-//        imageView.layer.shadowColor = UIColor.gray.cgColor
-//        imageView.layer.shadowOffset = CGSize(width: 10, height: 10)
-//        imageView.layer.shadowOpacity = 0.5
-//        imageView.layer.shadowRadius = 10
+        print("Start...")
         
-        let image = UIImage(named: "paper")
-        //let patternColor = UIColor(patternImage: image!)
-        //imageView.backgroundColor = patternColor
-        imageView.image = image
-//        let gradienLayer = CAGradientLayer()
-//        gradienLayer.frame = imageView.frame
-//
-//        let redColor = UIColor.red.cgColor
-//        let greenColor = UIColor.green.cgColor
-//        let blueColor = UIColor.blue.cgColor
-//
-//        gradienLayer.colors = [redColor,blueColor,greenColor]
-//
-//        imageView.layer.addSublayer(gradienLayer)
+        let group = DispatchGroup()
+        let globalQueue = DispatchQueue.global()
         
-        let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPress(_:)))
-        
-        let doubleTapGesture = UITapGestureRecognizer(target: self, action: #selector(doubleTap(_:)))
-        doubleTapGesture.numberOfTouchesRequired = 1
-        doubleTapGesture.numberOfTapsRequired = 2
-        
-        imageView.isUserInteractionEnabled = true
-        
-        imageView.addGestureRecognizer(longPressGesture)
-        imageView.addGestureRecognizer(doubleTapGesture)
-        
-        view.addSubview(imageView)
-        
-//        UIView.animate(withDuration: 4) {
-//            imageView.transform = CGAffineTransform(translationX: 50, y: 50)
-//        }
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("1")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("2")
+        })
+        group.notify(queue: globalQueue, work: DispatchWorkItem{
+            print("End...")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("3")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("4")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("5")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("6")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("7")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("8")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("9")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("10")
+        })
+        globalQueue.async(group: group, execute: DispatchWorkItem{
+            print("11")
+        })
         
         
     }

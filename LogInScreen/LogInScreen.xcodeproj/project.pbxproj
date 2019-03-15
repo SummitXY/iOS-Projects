@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186217D022353EF50019ADAE /* MovingBackgroundImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186217CF22353EF50019ADAE /* MovingBackgroundImage.framework */; };
+		186217D122353F010019ADAE /* MovingBackgroundImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186217CF22353EF50019ADAE /* MovingBackgroundImage.framework */; };
+		186217D222353F010019ADAE /* MovingBackgroundImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 186217CF22353EF50019ADAE /* MovingBackgroundImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		18E2FE99222E0B1200C8231D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2FE98222E0B1200C8231D /* AppDelegate.swift */; };
 		18E2FE9B222E0B1200C8231D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2FE9A222E0B1200C8231D /* ViewController.swift */; };
 		18E2FE9E222E0B1200C8231D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E2FE9C222E0B1200C8231D /* Main.storyboard */; };
@@ -18,7 +21,22 @@
 		18E2FF22222EDC6500C8231D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2FF21222EDC6500C8231D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		186217D322353F010019ADAE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				186217D222353F010019ADAE /* MovingBackgroundImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		186217CF22353EF50019ADAE /* MovingBackgroundImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MovingBackgroundImage.framework; sourceTree = "<group>"; };
 		18E2FE95222E0B1200C8231D /* LogInScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogInScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E2FE98222E0B1200C8231D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E2FE9A222E0B1200C8231D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186217D122353F010019ADAE /* MovingBackgroundImage.framework in Frameworks */,
+				186217D022353EF50019ADAE /* MovingBackgroundImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +66,7 @@
 		18E2FE8C222E0B1100C8231D = {
 			isa = PBXGroup;
 			children = (
+				186217CF22353EF50019ADAE /* MovingBackgroundImage.framework */,
 				18E2FE97222E0B1200C8231D /* LogInScreen */,
 				18E2FE96222E0B1200C8231D /* Products */,
 			);
@@ -94,6 +115,7 @@
 				18E2FE91222E0B1100C8231D /* Sources */,
 				18E2FE92222E0B1100C8231D /* Frameworks */,
 				18E2FE93222E0B1100C8231D /* Resources */,
+				186217D322353F010019ADAE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,6 +330,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42VW94SVZ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LogInScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -326,6 +352,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42VW94SVZ4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = LogInScreen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
