@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D6290D2246171E003C64ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6290C2246171E003C64ED /* AppDelegate.m */; };
+		18D629102246171E003C64ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6290F2246171E003C64ED /* ViewController.m */; };
+		18D629132246171E003C64ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D629112246171E003C64ED /* Main.storyboard */; };
+		18D629152246171F003C64ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D629142246171F003C64ED /* Assets.xcassets */; };
+		18D629182246171F003C64ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D629162246171F003C64ED /* LaunchScreen.storyboard */; };
+		18D6291B2246171F003C64ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6291A2246171F003C64ED /* main.m */; };
+		18D6292422461AFF003C64ED /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6292322461AFF003C64ED /* Card.m */; };
+		18D6292C22461CD8003C64ED /* Poker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6292B22461CD8003C64ED /* Poker.m */; };
+		18D6292F224623CA003C64ED /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6292E224623CA003C64ED /* Deck.m */; };
+		18D6293222462ABD003C64ED /* PokerDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D6293122462ABD003C64ED /* PokerDeck.m */; };
+		18D629352247CBEE003C64ED /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D629342247CBEE003C64ED /* CardMatchingGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D629082246171E003C64ED /* myMachismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myMachismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D6290B2246171E003C64ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D6290C2246171E003C64ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D6290E2246171E003C64ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D6290F2246171E003C64ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D629122246171E003C64ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D629142246171F003C64ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D629172246171F003C64ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D629192246171F003C64ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D6291A2246171F003C64ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D6292322461AFF003C64ED /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		18D6292522461B9B003C64ED /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		18D6292A22461CD8003C64ED /* Poker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Poker.h; sourceTree = "<group>"; };
+		18D6292B22461CD8003C64ED /* Poker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Poker.m; sourceTree = "<group>"; };
+		18D6292D224623CA003C64ED /* Deck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		18D6292E224623CA003C64ED /* Deck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		18D6293022462ABD003C64ED /* PokerDeck.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokerDeck.h; sourceTree = "<group>"; };
+		18D6293122462ABD003C64ED /* PokerDeck.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokerDeck.m; sourceTree = "<group>"; };
+		18D629332247CBEE003C64ED /* CardMatchingGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		18D629342247CBEE003C64ED /* CardMatchingGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D629052246171E003C64ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D628FF2246171E003C64ED = {
+			isa = PBXGroup;
+			children = (
+				18D6290A2246171E003C64ED /* myMachismo */,
+				18D629092246171E003C64ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D629092246171E003C64ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D629082246171E003C64ED /* myMachismo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D6290A2246171E003C64ED /* myMachismo */ = {
+			isa = PBXGroup;
+			children = (
+				18D6292622461C06003C64ED /* Models */,
+				18D629222246176A003C64ED /* Controllers */,
+				18D629112246171E003C64ED /* Main.storyboard */,
+				18D629142246171F003C64ED /* Assets.xcassets */,
+				18D629162246171F003C64ED /* LaunchScreen.storyboard */,
+				18D629192246171F003C64ED /* Info.plist */,
+				18D6292122461762003C64ED /* Supporting Files */,
+			);
+			path = myMachismo;
+			sourceTree = "<group>";
+		};
+		18D6292122461762003C64ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D6290B2246171E003C64ED /* AppDelegate.h */,
+				18D6290C2246171E003C64ED /* AppDelegate.m */,
+				18D6291A2246171F003C64ED /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18D629222246176A003C64ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D6290E2246171E003C64ED /* ViewController.h */,
+				18D6290F2246171E003C64ED /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18D6292622461C06003C64ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18D6292522461B9B003C64ED /* Card.h */,
+				18D6292322461AFF003C64ED /* Card.m */,
+				18D6292A22461CD8003C64ED /* Poker.h */,
+				18D6292B22461CD8003C64ED /* Poker.m */,
+				18D6292D224623CA003C64ED /* Deck.h */,
+				18D6292E224623CA003C64ED /* Deck.m */,
+				18D6293022462ABD003C64ED /* PokerDeck.h */,
+				18D6293122462ABD003C64ED /* PokerDeck.m */,
+				18D629332247CBEE003C64ED /* CardMatchingGame.h */,
+				18D629342247CBEE003C64ED /* CardMatchingGame.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D629072246171E003C64ED /* myMachismo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D6291E2246171F003C64ED /* Build configuration list for PBXNativeTarget "myMachismo" */;
+			buildPhases = (
+				18D629042246171E003C64ED /* Sources */,
+				18D629052246171E003C64ED /* Frameworks */,
+				18D629062246171E003C64ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myMachismo;
+			productName = myMachismo;
+			productReference = 18D629082246171E003C64ED /* myMachismo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D629002246171E003C64ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Chauncey Qu";
+				TargetAttributes = {
+					18D629072246171E003C64ED = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 18D629032246171E003C64ED /* Build configuration list for PBXProject "myMachismo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D628FF2246171E003C64ED;
+			productRefGroup = 18D629092246171E003C64ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D629072246171E003C64ED /* myMachismo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D629062246171E003C64ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D629182246171F003C64ED /* LaunchScreen.storyboard in Resources */,
+				18D629152246171F003C64ED /* Assets.xcassets in Resources */,
+				18D629132246171E003C64ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D629042246171E003C64ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D629102246171E003C64ED /* ViewController.m in Sources */,
+				18D6292C22461CD8003C64ED /* Poker.m in Sources */,
+				18D6291B2246171F003C64ED /* main.m in Sources */,
+				18D6293222462ABD003C64ED /* PokerDeck.m in Sources */,
+				18D629352247CBEE003C64ED /* CardMatchingGame.m in Sources */,
+				18D6290D2246171E003C64ED /* AppDelegate.m in Sources */,
+				18D6292F224623CA003C64ED /* Deck.m in Sources */,
+				18D6292422461AFF003C64ED /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D629112246171E003C64ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D629122246171E003C64ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D629162246171F003C64ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D629172246171F003C64ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D6291C2246171F003C64ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D6291D2246171F003C64ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D6291F2246171F003C64ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VW94SVZ4;
+				INFOPLIST_FILE = myMachismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.summitxy.myMachismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D629202246171F003C64ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 42VW94SVZ4;
+				INFOPLIST_FILE = myMachismo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.summitxy.myMachismo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D629032246171E003C64ED /* Build configuration list for PBXProject "myMachismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6291C2246171F003C64ED /* Debug */,
+				18D6291D2246171F003C64ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D6291E2246171F003C64ED /* Build configuration list for PBXNativeTarget "myMachismo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D6291F2246171F003C64ED /* Debug */,
+				18D629202246171F003C64ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D629002246171E003C64ED /* Project object */;
+}

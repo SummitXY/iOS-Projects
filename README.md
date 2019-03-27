@@ -27,6 +27,12 @@ Note:
 
 <img src="https://github.com/SummitXY/iOS-projects/blob/master/twitterScreen/sources/app.gif" width="200">
 
+# 扑克牌匹配
+
+<img src="https://github.com/SummitXY/iOS-projects/blob/master/myMachismo/app.gif" width="200">
+
+cs193p课程的第一个项目
+
 # MovingBackground
 
 <img src="https://github.com/SummitXY/iOS-projects/blob/master/MovingBackground/sources/app.gif" width="200" >
